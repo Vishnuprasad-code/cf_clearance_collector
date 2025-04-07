@@ -18,7 +18,6 @@ async def parse_cf_clearance_cookies(
     browser_config_args = browser_config_args or {}
     browser_config_args = {
         "headless": False,
-        # "sandbox": True,
         "browser_args": [],
         "lang": "en-US",
         **browser_config_args
@@ -26,6 +25,7 @@ async def parse_cf_clearance_cookies(
     browser = await uc.start(**browser_config_args)
 
     logger.info(f"Browser info:- {browser.info}")
+
     # await tab.send(cdp.network.set_user_agent_override(
     #     user_agent=browser.info.get("User-Agent").replace("Headless", "")
     #         ))
