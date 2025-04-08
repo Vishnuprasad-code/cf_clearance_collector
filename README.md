@@ -14,8 +14,8 @@ This cf_clearance cookie collector API is designed to extract response cookies a
 ---
 ## API Setup
 
-- git clone https://github.com/your-username/captcha-solver-api.git
-- cd captcha-solver-api
+- git clone https://github.com/Vishnuprasad-code/cf_clearance_collector.git
+- cd cf_clearance_collector
 - docker-compose up --build
 
 ## Usage
